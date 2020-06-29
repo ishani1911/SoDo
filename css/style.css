@@ -157,8 +157,8 @@
 
 @media (min-width: 690px) {
   .example-image {
-    width: 330px;
-    max-height: 662px;
+    width: 300px;
+    max-height: 600px;
     border-radius: 50px;
   }
 }
