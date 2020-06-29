@@ -1,0 +1,17 @@
+<svg width="1920.1929931640625" height="1054.85400390625" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="2639.134501" width="4802.481556" y="-1" x="-1"/>
+ </g>
+
+ <g class="currentLayer">
+  <title>Layer 1</title>
+  <g fill="#000000" id="Group_111" stroke="#000000">
+   <path stroke="#000000" fill="#000000" d="m1920.160985,675.296035s-86.293,-291.46 -385.926,-226.392s-437.666,0 -536.141,-139.852s-348.515,-144.641 -576.542,-88.319s-380,-116.481 -421.437,-220.589c0.1,8 -0.016,1054.71 -0.016,1054.71l1920.047,0l0.015,-379.558z" id="Path_194"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 2</title>
+  <rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none"/>
+ </g>
+</svg>
