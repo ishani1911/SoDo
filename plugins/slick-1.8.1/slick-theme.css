@@ -81,7 +81,7 @@
 {
     left: -25px;
 }
-[dir='rtl'] .slick-prev
+.slick-prev
 {
     right: -25px;
     left: auto;
@@ -90,7 +90,7 @@
 {
     content: '←';
 }
-[dir='rtl'] .slick-prev:before
+.slick-prev:before
 {
     content: '→';
 }
@@ -99,7 +99,7 @@
 {
     right: -25px;
 }
-[dir='rtl'] .slick-next
+.slick-next
 {
     right: auto;
     left: -25px;
@@ -108,7 +108,7 @@
 {
     content: '→';
 }
-[dir='rtl'] .slick-next:before
+.slick-next:before
 {
     content: '←';
 }
