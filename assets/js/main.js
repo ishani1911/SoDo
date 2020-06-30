@@ -88,6 +88,24 @@ $(function () {
 
 
     //=====  WOW active
+    $('.testimonial-author-slider').slick({
+	slidesToShow:1,
+	slidesToScroll:1,
+	arrows:false,
+	fade:true,
+	asNavFor:'.testimonial-content'
+});
+
+$('.testimonial-content').slick({
+	slidesToShow:1,
+	slidesToScroll:1,
+	arrows:true,
+	prevArrow:'<span class="prev">&larr;</span>',
+	nextArrow:'<span class="next">&rarr;</span>',
+	asNavFor:'.testimonial-author-slider',
+	dots:false,
+	focusOnSelect:true
+});
 
     new WOW().init();
 
