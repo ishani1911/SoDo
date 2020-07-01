@@ -42,7 +42,7 @@
 
 .example-slider-wrapper {
   position: relative;
-  margin-top: 20px;
+  padding-top: 70px;
 }
 
 .example-slider-wrapper .slick-arrow {
