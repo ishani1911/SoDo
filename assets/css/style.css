@@ -530,7 +530,7 @@ p {
 
 /*===========================
       03.BRAND css 
-===========================*/
+===========================
 @media (max-width: 767px) {
   .brand-logo {
     -ms-flex-wrap: wrap;
@@ -645,8 +645,6 @@ p {
       margin-left: 10px; }
     .single-services .services-content .more:hover {
       color: #361CC1; }
-  .single-services:hover {
-    border-color: #FE7A7B; }
     .single-services:hover .services-icon .shape {
       -webkit-transform: rotate(25deg);
       -moz-transform: rotate(25deg);
