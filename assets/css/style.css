@@ -896,6 +896,9 @@ p {
 .testimonial-wrapper .main-btn{
       margin-top: 45px;
       margin-left: -10px;
+    background:-webkit-linear-gradient(left,#fe8464 0%,#f07b07 50%,#fe8464 100%);
+  background:-o-linear-gradient(left,#fe8464 0%,#f07b07 50%,#fe8464 100%);
+  background:linear-gradient(to right,#fe8464 0%,#f07b07 50%,#fe8464 100%);
     }
 
 @media only screen and (min-width:992px) and (max-width:1199px){
