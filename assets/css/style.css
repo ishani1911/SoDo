@@ -146,9 +146,9 @@ p {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background: -webkit-linear-gradient(left, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
-  background: -o-linear-gradient(left, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
-  background: linear-gradient(to right, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
+  background:-webkit-linear-gradient(left,#fe8464 0%,#f07b07 50%,#fe8464 100%);
+  background:-o-linear-gradient(left,#fe8464 0%,#f07b07 50%,#fe8464 100%);
+  background:linear-gradient(to right,#fe8464 0%,#f07b07 50%,#fe8464 100%);
   background-size: 200%; }
   .main-btn:hover {
     color: #fff;
