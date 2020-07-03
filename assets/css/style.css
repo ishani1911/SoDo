@@ -734,10 +734,9 @@ p {
   .about-content .text {
     margin-top: 15px; }
   .about-content .main-btn {
-    background: -webkit-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-    background: -o-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-    background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-    background-size: 200%;
+    background:-webkit-linear-gradient(left,#fe8464 0%,#f07b07 50%,#fe8464 100%);
+  background:-o-linear-gradient(left,#fe8464 0%,#f07b07 50%,#fe8464 100%);
+  background:linear-gradient(to right,#fe8464 0%,#f07b07 50%,#fe8464 100%);
     height: 50px;
     line-height: 50px;
     padding: 0 35px;
@@ -935,6 +934,13 @@ p {
     @media only screen and (min-width:992px) and (max-width:1199px){.testimonial-content{margin-left:40px}}
     .testimonial-content .slick-arrow{position:absolute;bottom:-65px;left:0;font-size:24px;cursor:pointer}
     .testimonial-content .slick-arrow.next{left:40px}
+.testimonial-wrapper .main-btn{
+   background:-webkit-linear-gradient(left,#fe8464 0%,#f07b07 50%,#fe8464 100%);
+  background:-o-linear-gradient(left,#fe8464 0%,#f07b07 50%,#fe8464 100%);
+  background:linear-gradient(to right,#fe8464 0%,#f07b07 50%,#fe8464 100%);
+      margin-top: 45px;
+      margin-left: -10px
+    }
 
 @media only screen and (min-width:992px) and (max-width:1199px){
   .testimonial-content .slick-arrow{
@@ -1246,9 +1252,9 @@ BLOG
   height: 40px;
   line-height: 40px;
   border-radius: 5px;
-    background: -webkit-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-    background: -o-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-    background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+    background:-webkit-linear-gradient(left,#fe8464 0%,#f07b07 50%,#fe8464 100%);
+  background:-o-linear-gradient(left,#fe8464 0%,#f07b07 50%,#fe8464 100%);
+  background:linear-gradient(to right,#fe8464 0%,#f07b07 50%,#fe8464 100%);
   
   text-align: center;
   z-index: 99;
