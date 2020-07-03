@@ -893,6 +893,10 @@ p {
     @media only screen and (min-width:992px) and (max-width:1199px){.testimonial-content{margin-left:40px}}
     .testimonial-content .slick-arrow{position:absolute;bottom:-65px;left:0;font-size:24px;cursor:pointer}
     .testimonial-content .slick-arrow.next{left:40px}
+.testimonial-wrapper .main-btn{
+      margin-top: 45px;
+      margin-left: -10px;
+    }
 
 @media only screen and (min-width:992px) and (max-width:1199px){
   .testimonial-content .slick-arrow{
