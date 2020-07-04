@@ -284,6 +284,7 @@ p {
   padding: 25px 0;
   border-radius: 5px;
   position: relative;
+    background-color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -365,7 +366,7 @@ p {
   .navbar-nav .nav-item a {
     font-size: 16px;
     font-weight: 400;
-    color: #fff;
+    color: #000;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -756,11 +757,9 @@ p {
   .faqs-area .faqs-title .title{font-size:30px;padding-top:10px}
   @media only screen and (min-width:992px) and (max-width:1199px){.faqs-area .faqs-title .title{font-size:26px}}
   @media(max-width:767px){.faqs-area .faqs-title .title{font-size:22px}}
-  .faqs-area .faqs-accordion .accordion .card{border:0;background:0 0}
+  .faqs-area .faqs-accordion .accordion .card{border:1px;background-color:gray;}
 .faqs-area .faqs-accordion .accordion .card:hover{
- -webkit-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
-    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);}
+ background-color:black;}
   .faqs-area .faqs-accordion .accordion .card .card-header{padding:0;border:0;background:0 0;margin-top:40px}
   .faqs-area .faqs-accordion .accordion .card .card-header a{font-size:18px;font-weight:500;color:#000;display:block;position:relative;padding-right:20px}
   @media only screen and (min-width:992px) and (max-width:1199px){.faqs-area .faqs-accordion .accordion .card .card-header a{font-size:16px}}
