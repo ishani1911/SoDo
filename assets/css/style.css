@@ -1210,7 +1210,7 @@ BLOG
       margin-top: 20px; }
       .link-wrapper .link li a {
         font-size: 16px;
-        color: #fff;
+        color: #747E88;
         -webkit-transition: all 0.3s ease-out 0s;
         -moz-transition: all 0.3s ease-out 0s;
         -ms-transition: all 0.3s ease-out 0s;
@@ -1234,7 +1234,7 @@ BLOG
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
       .footer-contact .contact-list li .contact-info .info-content .text a:hover {
-        color: #0898E7; }
+        color: #fc9432; }
 /*.footer-contact .contact {
   padding-top: 20px; }
   .footer-contact .contact li {
