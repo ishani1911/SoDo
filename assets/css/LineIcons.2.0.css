@@ -2209,4 +2209,34 @@ Author: lineicons.com
 .lni-spotify-original::before {
   content: "\ec03";
 }
+.lni-play-store::before {
+  content: "\eb4b";
+}
 
+.lni-play::before {
+  content: "\eb4c";
+}
+.lni-phone-set::before {
+  content: "\eb41";
+}
+
+.lni-phone::before {
+  content: "\eb42";
+}
+.lni-map-marker::before {
+  content: "\eb16";
+}
+
+.lni-map::before {
+  content: "\eb17";
+}
+.lni-envelope::before {
+  content: "\eaa4";
+}
+.lni-world-alt::before {
+  content: "\ebf5";
+}
+
+.lni-world::before {
+  content: "\ebf6";
+}
