@@ -576,7 +576,7 @@ p {
 
 /*===========================
       03.BRAND css 
-===========================
+===========================*/
 @media (max-width: 767px) {
   .brand-logo {
     -ms-flex-wrap: wrap;
@@ -757,10 +757,11 @@ p {
   .faqs-area .faqs-title .title{font-size:30px;padding-top:10px}
   @media only screen and (min-width:992px) and (max-width:1199px){.faqs-area .faqs-title .title{font-size:26px}}
   @media(max-width:767px){.faqs-area .faqs-title .title{font-size:22px}}
-  .faqs-area .faqs-accordion .accordion .card{border:1px;background-color:gray;}
-.faqs-area .faqs-accordion .accordion .card:hover{
- background-color:black;}
-  .faqs-area .faqs-accordion .accordion .card .card-header{padding:0;border:0;background:0 0;margin-top:40px}
+  .faqs-area .faqs-accordion .accordion .card{border:2px solid whitesmoke; border-radius: (2,2); background:lightgray; margin-bottom: 5px;}
+  .faqs-area .faqs-accordion .accordion .card .card-header{padding:10px;border:0;background:white; border-radius:(2,2);}
+  .faqs-area .faqs-accordion .accordion .card:hover{
+    border-color: black;
+  }
   .faqs-area .faqs-accordion .accordion .card .card-header a{font-size:18px;font-weight:500;color:#000;display:block;position:relative;padding-right:20px}
   @media only screen and (min-width:992px) and (max-width:1199px){.faqs-area .faqs-accordion .accordion .card .card-header a{font-size:16px}}
   @media(max-width:767px){.faqs-area .faqs-accordion .accordion .card .card-header a{font-size:16px}}
@@ -901,7 +902,7 @@ p {
         .counter-wrapper .single-counter .text {
           font-size: 16px; } }
 
-       /* */
+/*TESTIMONIALS */
 
     .animation1{-webkit-animation:rotate3d 7s linear infinite;-moz-animation:rotate3d 7s linear infinite;-o-animation:rotate3d 7s linear infinite;
         animation:rotate3d 7s linear infinite}
@@ -997,7 +998,7 @@ p {
   }
 }
 /*========
-Testimonials
+TESTIMONIALS
 ============*/
 
 /*====
@@ -1218,12 +1219,28 @@ BLOG
         .link-wrapper .link li a:hover {
           color:#fc9432; }
 
-.footer-contact .contact {
+.footer-contact .contact-list li {
+  margin-top: 20px; }
+  .footer-contact .contact-list li .contact-info .info-info {
+    width: 30px; }
+  .footer-contact .contact-list li .contact-info .info-content .text {
+    color: #747E88;
+    font-size: 16px; }
+    .footer-contact .contact-list li .contact-info .info-content .text a {
+      color: #747E88;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+      .footer-contact .contact-list li .contact-info .info-content .text a:hover {
+        color: #0898E7; }
+/*.footer-contact .contact {
   padding-top: 20px; }
   .footer-contact .contact li {
     margin-top: 20px;
     font-size: 16px;
-    color: #fff; }
+    color: #fff; }*/
 
 .footer-copyright {
   border-top: 1px solid rgba(255, 255, 255, 0.3);
