@@ -64,8 +64,8 @@
           justify-content: center;
   -webkit-transition: .4s;
   transition: .4s;
-  background-color: #2780ff;
-  color: #fff;
+  background-color: #fc9432;
+  color: black;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   z-index: 99;
@@ -84,8 +84,8 @@
 }
 
 .example-slider-wrapper .slick-arrow:hover {
-  background: white;
-  color: #000000;
+  background: black;
+  color: white;
 }
 
 .example-slider-wrapper .slick-arrow.slick-next {
